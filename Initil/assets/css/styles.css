@@ -269,8 +269,15 @@ section.wrapper, article.wrapper {
 		}
 
     @media screen and (max-width: 420px){
-      #flex{
-        max-width: 420px;
-        
+      #banner h1{
+        font-size: 2rem;
+      }
+      
+      .flex{
+        flex-flow: column;
+      }
+      #three article{
+        width: 100%;
+        margin-bottom: 5px;
       }
       }
